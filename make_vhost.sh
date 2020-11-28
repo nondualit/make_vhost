@@ -5,7 +5,7 @@
 # name       : make_vhost.sh
 # Version    : 1.0
 # Date       : 29-11-2020
-# Description: Add and remove VirtualHost to Apache Webserver on Ubuntu Server for AppLab Aruba to ise with AWS
+# Description: Add and remove VirtualHost to Apache Webserver on Ubuntu Server for AppLab Aruba to use with AWS instances
 ################################################################################
 #Placeholders
 sites=/etc/apache2/sites-available
