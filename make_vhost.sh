@@ -5,7 +5,7 @@
 # name       : make_vhost.sh
 # Version    : 1.0
 # Date       : 29-11-2020
-# Description: Add and remove VirtualHost to tApache Webserver on Ubuntu Server
+# Description: Add and remove VirtualHost to Apache Webserver on Ubuntu Server
 ################################################################################
 #Placeholders
 sites=/etc/apache2/sites-available
@@ -70,7 +70,7 @@ systemctl reload apache2
 ;;
 -h)
    echo "make_vhost.sh options
-This script add or delete VirtualHost to the Apache2 Webserver on a Ubuntu Server
+This script add or delete VirtualHost to the Apache2 Webserver
 -a to add a VirtualHost
 -d to delete a VirtualHost
 -v to view all VirtualHost";;
