@@ -70,7 +70,7 @@ systemctl reload apache2
 ;;
 -h)
    echo "make_vhost.sh options
-This script add or delete VirtualHost to the Apache2 Webserver
+This script add or delete VirtualHost to the Apache2 Webserver on Ubuntu server
 -a to add a VirtualHost
 -d to delete a VirtualHost
 -v to view all VirtualHost";;
